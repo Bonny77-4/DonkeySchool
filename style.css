@@ -1,19 +1,10 @@
 body {
-    background-image: url(img/body/background.jpg);
+    background-image: url(img/body/background.jp);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 
-h1{
-    color: aliceblue;
-    font-size: 40px;
-    position: relative;
-}
-
-p {
-    color: aliceblue;
-}
 .sidenav {
     height: 100%;
     width: 250px;
@@ -66,4 +57,14 @@ p {
     height: 5px;
     background-color: black;
     margin: 6px 0;
+}
+
+h1{
+    color: aliceblue;
+    font-size: 40px;
+    position: relative;
+}
+
+p {
+    color: aliceblue;
 }
