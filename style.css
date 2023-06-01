@@ -1,5 +1,12 @@
-body {
-    background-image: url(img/body/background.jp);
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+  }
+  
+  body {
+    background-image: url(img/body/Background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -55,7 +62,7 @@ body {
     display: block;
     width: 35px;
     height: 5px;
-    background-color: black;
+    background-color: white;
     margin: 6px 0;
 }
 
@@ -63,8 +70,22 @@ h1{
     color: aliceblue;
     font-size: 40px;
     position: relative;
+    text-align: center;
 }
 
 p {
     color: aliceblue;
+}
+
+main img {
+    border-radius: 3px;
+}
+
+main img:hover {
+    opacity: 0.8;
+  }
+
+main img:first-of-type {
+    -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+
 }
